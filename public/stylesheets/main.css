@@ -1,95 +1,144 @@
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    padding-top: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 1em;
 }
 
 hr.style-two {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
 }
-
 
 /* The sidebar menu */
 
 .sidenav {
-    height: auto;
-    /* Full-height: remove this if you want "auto" height */
-    width: 15em;
-    /* Set the width of the sidebar */
-    position: relative;
-    /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1;
-    /* Stay on top */
-    top: 5;
-    /* Stay at the top */
-    float: right;
-    background-color: #cfcfea;
-    /* Black */
-    overflow-x: auto;
-    /* Disable horizontal scroll */
-    padding-top: 50px;
+  height: auto;
+  /* Full-height: remove this if you want "auto" height */
+  width: 15em;
+  /* Set the width of the sidebar */
+  position: relative;
+  /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1;
+  /* Stay on top */
+  top: 5;
+  /* Stay at the top */
+  float: right;
+  background-color: #cfcfea;
+  /* Black */
+  overflow-x: auto;
+  /* Disable horizontal scroll */
+  padding-top: 50px;
 }
-
 
 /* The navigation menu links */
 
 .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: rgb(66, 9, 104);
-    display: block;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(66, 9, 104);
+  display: block;
 }
-
 
 /* When you mouse over the navigation links, change their color */
 
 .sidenav a:hover {
-    color: #54428e;
+  color: #54428e;
 }
-
 
 /* Style page content */
 
 .main {
-    margin-left: 160px;
-    /* Same as the width of the sidebar */
-    padding: 0px 10px;
+  margin-left: 160px;
+  /* Same as the width of the sidebar */
+  padding: 0px 10px;
 }
-
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 
 @media screen and (max-height: 450px) {
-    .sidenav {
-        padding-top: 15px;
-    }
-    .sidenav a {
-        font-size: 18px;
-    }
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
 }
 
-#storyBoard,#addBlock,#title,#submitStory {
-    margin-left: 1em;
+#storyBoard,
+#addBlock,
+#title,
+#submitStory {
+  margin-left: 1em;
 }
 
 .node {
-    font-size: 18px;
-    color: #777
+  font-size: 18px;
+  color: #777;
 }
 
 .opt {
-    margin-left: 1em;
+  margin-left: 1em;
 }
 
-#content,#optionsFooter {
-    padding: 1rem;
+#content,
+#optionsFooter {
+  padding: 1rem;
 }
 
-input[type=checkbox] {
-    border: 1px solid red;
+input[type="checkbox"] {
+  border: 1px solid red;
 }
 
-input[type=text]{font-size:18px;width:70%;border:none;border-bottom:2px solid #AAAAAA;padding:8px 8px 8px 0px;margin:8px 0}input:focus{outline:none;border-bottom:2px solid #bf4c6b}textarea{font-size:18px;margin-top:8px;font-size:18px;width:70%;border:2px solid #AAAAAA;padding:8px 8px 0;border-radius:0px 10px;resize:none;height:150px}textarea:focus{outline:none;border:2px solid #bf4c6b}button,input[type=submit]{font-size:18px;margin-top:8px;margin-bottom:8px;background-color:#bf4c6b;border-radius:10px 10px 10px 10px;padding:8px 8px 8px;opacity:0.6;color:white;border:none;text-align:center}input[type=submit]:hover,button:hover{background-color: #bf4c6b ;opacity:1;cursor:pointer;}
+input[type="text"] {
+  font-size: 18px;
+  width: 70%;
+  border: none;
+  border-bottom: 2px solid #aaaaaa;
+  padding: 8px 8px 8px 0px;
+  margin: 8px 0;
+}
+input:focus {
+  outline: none;
+  border-bottom: 2px solid #bf4c6b;
+}
+textarea {
+  font-size: 18px;
+  margin-top: 8px;
+  font-size: 18px;
+  width: 70%;
+  border: 2px solid #aaaaaa;
+  padding: 8px 8px 0;
+  border-radius: 0px 10px;
+  resize: none;
+  height: 150px;
+}
+textarea:focus {
+  outline: none;
+  border: 2px solid #bf4c6b;
+}
+button,
+input[type="submit"] {
+  font-size: 18px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: #bf4c6b;
+  border-radius: 10px 10px 10px 10px;
+  padding: 8px 8px 8px;
+  opacity: 0.6;
+  color: white;
+  border: none;
+  text-align: center;
+}
+input[type="submit"]:hover,
+button:hover {
+  background-color: #bf4c6b;
+  opacity: 1;
+  cursor: pointer;
+}
