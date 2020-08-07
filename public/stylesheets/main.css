@@ -1,13 +1,13 @@
  /* CSS FOR NAVIGATION BAR */
 
- .help{
+.gap{
+   padding-right: 50px;
+ }
+
+.help{
    padding-right: 30px;
-
  }
 
- .pad{
-   padding-left: 70px;
- }
 
  .navbar a:hover {
  background-color: black;
