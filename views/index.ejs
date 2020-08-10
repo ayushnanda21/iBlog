@@ -12,6 +12,10 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
     <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css"> -->
     <!-- <script src="main.js"></script> -->
+
+    <!-- Stylesheet for enabling dark darkmode -->
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.6/lib/darkmode-js.min.js"></script>
+
 </head>
 
 <body>
@@ -54,6 +58,27 @@
               <span class="badge badge-danger">NEW</span>
               </a>
           </li>
+
+          <script>
+
+          const options ={
+            bottom: '32px',
+            right: '32px',
+            left: 'unset',
+            time: '0.5s',
+            mixColor: '#fff',
+            backgroundColor: '#fff',
+            buttonColorDark: '#100f2c',
+            buttonColorLight: '#fff',
+            saveInCookies: false,
+            label: '🌓',
+            autoMatchOsTheme: true
+          }
+
+          const darkmode = new Darkmode(options);
+          darkmode.showWidget();
+
+          </script>
 
       </div>
     </nav>
